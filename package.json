@@ -1,0 +1,26 @@
+{
+  "name": "sort",
+  "version": "1.0.0",
+  "description": "_Will work on finding a sorting solution for multiple data structures, such as arrays, linked list and string._",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bilguun1015/typescript-project-4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bilguun1015/typescript-project-4/issues"
+  },
+  "homepage": "https://github.com/Bilguun1015/typescript-project-4#readme",
+  "dependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
