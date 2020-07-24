@@ -1,6 +1,6 @@
 # Sorting
 
-_Will work on finding a sorting solution for multiple data structures, such as arrays, linked list and string._
+_Will work on Bubble Sort for sorting different inputs, such as arrays, linked list and string. Main idea is to reuse this sorting method._
 
 ## Environment Setup
 
