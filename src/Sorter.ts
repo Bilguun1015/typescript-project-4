@@ -1,4 +1,8 @@
-import { NumbersCollection } from './NumbersCollection';
+interface Sortable {
+  length: number;
+  compare(leftIndex: number, rightIndex: number): boolean;
+  swap(leftIndex: number, rightIndex: number): void;
+}
 //this equals below constructor syntax
 // class Sorter {
 //   collection: number[];
@@ -8,7 +12,8 @@ import { NumbersCollection } from './NumbersCollection';
 // }
 export class Sorter {
   // public makes the declaration as well
-  constructor(public collection: NumbersCollection) {}
+  // annotate the collection's instance to NumbersCollection
+  constructor(public collection: Sortable) {}
 
   sort(): void {
     const { length } = this.collection;
