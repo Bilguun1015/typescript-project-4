@@ -19,3 +19,8 @@ _Will work on Bubble Sort for sorting different inputs, such as arrays, linked l
 4. **Update script tag in package.json**
 
    `"scripts": { "start:build": "tsc -w", "start:run": "nodemon build/index.js", "start": "concurrently npm:start:*" },`
+
+## Notes
+
+- Union Operator, OR | , makes the arguments array or string to have limited methods which are present in both string and array
+- To restore access to all the methods that array offers, typeguard has to set in place
